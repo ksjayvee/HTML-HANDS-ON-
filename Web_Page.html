@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PAGES</title>
+    <style>  
+          body{text-align:center;}
+          table{align:center;}
+          .center {
+          margin-left: auto;
+          margin-right: auto;
+          }
+         #courseList{display: inline-block;text-align:left;}
+    </style>
+</head>
+<body >
+    <div style="background-color:yellow">
+    <h1 style="text-align:center;" id="table-heading">TABLES AND LISTS</h1>
+    <table  class="center"  border="1"  id="courseTable">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>22020</td>
+            <td>Joseph</td>
+            <td>Computer</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>22021</td>
+            <td>Mary</td>
+            <td>Electronics</td>
+            <td>EEE</td>
+        </tr>
+        <tr>
+            <td>22022</td>
+            <td>Helen</td>
+            <td>Mechanical</td>
+            <td>ME</td>
+        </tr>
+        <tr>
+            <td>22023</td>
+            <td>Alen</td>
+            <td>Aeronautical</td>
+            <td>AE</td>
+        </tr>
+        <tr>
+            <td>22024</td>
+            <td>Singh</td>
+            <td>Business</td>
+            <td>CSBS</td>
+        </tr>
+        <tr>
+            <td>22025</td>
+            <td>Mini</td>
+            <td>Maths</td>
+            <td>BA</td>
+        </tr>
+
+    </table><br>
+    <h2 style="text-align:center; font-size:30px;" id="courseHeading">No Of Courses Available</h2>
+    <ul style="font-size:20px;" id="courseList" id="center" >
+    <li>Information Technology</li>
+    <li>Computer Science</li>
+    <li>Electronics and Communication</li>
+    <li>Electronics and Electrical</li>
+    <li>Computer Science and Business System</li>
+    </ul>
+    </div>
+   <div style="background-color:lightgreen">
+   <h1 style="text-align:center;" id="imageHeading">IMAGE MAP</h1><br>
+  <img src="https://www.shutterstock.com/image-photo/gadgets-accessories-isolated-on-white-260nw-1248412693.jpg" alt="image" usemap="#devicemap"style="align:center;">
+   <map name="devicemap">
+    <area shape="rect" coords="34,44,270,350" alt="Tab" href="https://en.wikipedia.org/wiki/Tablet_computer">
+    <area shape="rect" coords="290,172,333,250" alt="Camera" href="https://en.wikipedia.org/wiki/Camera">
+    <area shape="circle" coords="337,300,44" alt="Headphone" href="https://en.wikipedia.org/wiki/Headphones">
+  </map>
+
+</div>
+<div style="background-color:pink">
+<h1 style="text-align:center; font-size:30px;">COMPLETE THE BELOW FORM</h1>
+<form id="login-form">
+<label>NAME : </label>
+<input type="text" id="fname"><br>
+<label>PASSWORD : </label>
+<input type="text" ><br>
+<label>E-MAIL : </label>
+<input type="text"></br>
+<label for="courses">Courses :</label>
+        <select name="Courses" id="course">
+          <option value="Computer Science">Computer Science</option>
+          <option value="IT">IT</option>
+          <option value="ME">ME</option>
+          <option value="EEE">EEE</option>
+          <option value="CSBS">CSBS</option>
+        </select><br>
+        <label for="Address">Address :</label>
+        <textarea id="Address" name="Address" rows="4" cols="50"></textarea><br>
+        <label for="Country">Country :</label>
+        <input list="Countries" name="Countries" id="Country">
+        <datalist id="Countries">
+          <option value="JAPAN">
+          <option value="NEW ZEALAND">
+          <option value="AMERICA">
+          <option value="">ROMAN
+          <option value="INDIA">
+        </datalist><br>
+        <button id="submit_btn" type="submit" form="login-form" value="Submit">Submit</button>
+        </form>
+    </div>
+        
+    <div style="background-color:orange">
+        <h1 id="frameHeading">FRAMES IN HTML</h1><br>
+        <iframe id="frameImage1" src="https://www.theserverside.com/definition/HTML-Hypertext-Markup-Language"></iframe>
+        <iframe id="frameImage2" src="https://www.britannica.com/technology/windmill"></iframe>
+    
+
+</div>
+    
+</body>
+</html>
